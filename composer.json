@@ -1,0 +1,15 @@
+{
+    "name": "skynix/paypalduplicatedorders",
+    "description": "Paypal Duplicated Orders Magento 2",
+    "require": {
+       "skynix/module-core": "*"
+    },
+    "type": "magento2-module",
+    "version": "2.0.3",
+    "autoload": {
+        "files": [ "registration.php" ],
+        "psr-4": {
+            "Skynix\\PaypalDuplicatedOrders\\": ""
+        }
+    }
+}
