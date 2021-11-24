@@ -20,19 +20,19 @@ class PlaceOrderPlugin
     /**
      * @var Generic
      */
-    private Generic $session;
+    private $session;
     /**
      * @var Http
      */
-    private Http $response;
+    private $response;
     /**
      * @var ManagerInterface
      */
-    private ManagerInterface $messageManager;
+    private $messageManager;
     /**
      * @var Session
      */
-    private Session $checkoutSession;
+    private $checkoutSession;
 
     public function __construct(
         Generic $session,

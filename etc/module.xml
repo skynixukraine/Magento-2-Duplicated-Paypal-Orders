@@ -5,9 +5,9 @@
  * Skynix Order Comment
  */
 -->
-<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
         xsi:noNamespaceSchemaLocation="urn:magento:framework:Module/etc/module.xsd">
-    <module name="Skynix_PaypalDuplicatedOrders" setup_version="1.0.0">
+    <module name="Skynix_PaypalDuplicatedOrders">
         <sequence>
             <module name="Magento_Sales" />
         </sequence>

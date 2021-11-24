@@ -2,7 +2,7 @@
     "name": "skynix/paypalduplicatedorders",
     "description": "Paypal Duplicated Orders Magento 2",
     "require": {
-        "php": "^7.4"
+        "php": "^7.3|^7.4"
     },
     "type": "magento2-module",
     "version": "3.0.0",
